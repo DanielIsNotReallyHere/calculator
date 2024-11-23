@@ -1,0 +1,53 @@
+.calc {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: black;
+    height: 600px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.bigcalc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+.calc .keys, .symbol, .equals {
+    border: 1px solid;
+    border-radius: 20px;
+    height: 70px;
+    width: 33%;
+    break-inside: avoid;
+}
+
+.cock {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.myc {
+    color: white;
+    font-family: ui-sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+/* if the CSS for this looks ugly af it is because i spent a whole month without working on this project, i figured that i should've left it for december (i had some 
+things going on in life), however i don't have much to do right now which is why i want to finish this already
